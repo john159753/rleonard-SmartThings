@@ -20,7 +20,6 @@ preferences {
   "enum",
   title: "State Refresh Rate",
   options: [
-   "Every minute",
    "Every 5 minutes",
    "Every 10 minutes",
    "Every 15 minutes",
@@ -115,9 +114,6 @@ def checkRefresh(settings) {
    break
   case "every 3 hours":
    runEvery3Hours(doRefresh)
-   break
-  case "every minute":
-   runEvery1minute(doRefresh)
    break
   default:
    runEvery3Hours(doRefresh)
