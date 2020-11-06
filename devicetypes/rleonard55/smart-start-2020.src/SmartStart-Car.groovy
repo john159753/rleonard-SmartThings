@@ -31,7 +31,7 @@ preferences {
   ],
   description: "Refresh Interval of vehicle information.",
   required: true,
-  default: "Every 3 hours")
+  defaultValue: "Every 3 hours")
 }
 
 metadata {
